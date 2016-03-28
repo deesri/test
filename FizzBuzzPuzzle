@@ -1,0 +1,14 @@
+for (var i=1;i<=20;i++){ //Print out the numbers from 1 - 20
+
+if (i%3 == 0 && i%5 == 0){ // Ristricted condition first. For numbers divisible by 3 and 5 , print out "FizzBuzz"
+    console.log("FizzBuzz");
+}
+else if (i%5 == 0){ // For numbers divisible by 5, print out "Buzz"
+    console.log("Buzz");
+}
+else if(i%3 == 0){ //For numbers divisible by 3, print out "Fizz"
+    console.log("Fizz");
+}
+else //Otherwise, just print out the number
+console.log(i);
+}

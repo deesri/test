@@ -1,0 +1,26 @@
+
+function checkVowel(x){
+    switch (x){
+        case "a":
+            return true;
+        break;
+        case "e":
+            return true;
+        break;
+        case "i":
+            return true;
+        break;
+        case "o":
+            return true;
+        break;
+        case "u":
+            return true;
+        break;
+
+        default:
+            return false;
+    }
+};
+
+console.log(checkVowel("p"));
+console.log(checkVowel("o"));

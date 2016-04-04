@@ -1,0 +1,7 @@
+
+function reversalOfString(str) {
+    return str.split("").reverse().join("");
+
+};
+
+console.log(reversalOfString("Happy"));
